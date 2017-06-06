@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	color:white;
+	background-color: black;
+	padding:10px 10px;
+}
+body {
+	background-color: black;
+}
+h3 {
+	padding-bottom: 15px;
+}
+footer {
+	background-color: white;
+	text-align: center;
+}
+.top-nav {
+	background-color: black;
+	color:white;
+	display:flex;
+	justify-content: space-around;
+	/*align-items:center;*/
+
+	
+}
+
+.top-nav-list {
+	display:flex;
+	list-style:none;
+	/*margin: auto;*/
+	/*justify-content: space-around;*/
+
+}
+
+.top-nav-list li {
+	/*margin: auto ;*/
+	padding:15px;
+	font-size: 20px;
+}
+
+.full-screen-bg {
+	height: 350px;
+	width:100%;
+	background-image: url("../images/solar-panel.jpeg");
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+.flex-row {
+	display: flex;
+}
+.col-2-1 {
+	width:50%;
+	margin:10px;
+	padding:10px;
+	background-color: white;
+	text-align: center;
+}
+.img100 {
+	width:50%;
+	border-radius:10%;
+	border:5px solid black;
+	display:inline-block;
+	align-content: center;
+}
